@@ -1,0 +1,78 @@
+body {
+  background-color: #fffef4;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer {
+  border-top: 1px solid #a0a0a0
+}
+
+.main-header {
+  text-align: center;
+}
+
+.main-header li {
+  text-decoration: none;
+  color: white;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+  list-style-type: none;
+}
+
+.main-header li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+nav a.selected, nav a:hover {
+  color: green;
+}
+
+.main-content {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.photo {
+  width: 80%;
+  height: 10%;
+  margin-top: 50px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.contact {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.footer li {
+  list-style-type: none;
+  display: inline;
+}
+
+.footer li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.top-link {
+  float: right;
+  margin-right: 10%;
+}
+
+.profile {
+  padding-bottom: 100px;
+}
+
+.profile-photo {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
