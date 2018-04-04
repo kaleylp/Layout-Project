@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta name=viewport content="width=device-width, initial-scale=1">
     <title>Responsive Layout Project</title>
@@ -15,14 +15,15 @@
     <nav class="menu">
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#projects">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#skills">Skills</a></li>
       </ul>
-    </div>
     </nav>
+        </div>
 
-    <div class="profile">
-      <img src="images/responsive-layout-profile.png" class="profile-photo">
+    <div class="profile" id="profile">
+      <img src="images/responsive-layout-profile.png" class="profile-photo" alt="Profile photo">
       <p>
         Hi! I'm a front-end developer who loves responsive design and css. I recently finished a
         degree in front-end web development at Treehouse and am excited to put all my skills to use!
@@ -30,10 +31,9 @@
     </div>
   </header>
 
-    <main>
       <h2 class="secondary-header">PORTFOLIO</h2>
 
-<div class="projects">
+<div class="projects" id="projects">
 
   <div class="marketing">
       <img src="images/portfolio-1.png" alt="Vector art" class="photo">
@@ -79,7 +79,7 @@
 </div>
 
 
-<div class="contact">
+<div class="contact" id="contact">
       <h2 class="secondary-header">CONTACT</h2>
       <p>If you're interested in chatting or want more information about what I've been working on,
       I'd love to hear from you!</p>
@@ -87,8 +87,22 @@
       <p>Phone   <b>(999)999-9999</b></p>
       <p>Email   <b>email@gmail.com</b></p>
 </div>
-    </main>
+
       </div>
+
+  <div class="skills" id="skills">
+      <h2 class="secondary-header">SKILLS</h2>
+        <p>I am constantly expanding my skill set, and am an eager student.</p>
+        <p>Listed below are the skills I currently possess, but I am constantly<br> looking to expand my skill set!</p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+        </ul>
+
+  </div>
+
+
 
 
     <footer>
@@ -102,13 +116,14 @@
           <div class="footer-large">
         <ul>
           <li>Kaley Phillips</li>
-            <div class="bottom-nav">
+
           <li><a href="#">Home</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-            </div>
+          <li><a href="#projects">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#skills">Skills</a></li>
+        
         </ul>
-      
+
 
       </div>
     </footer>

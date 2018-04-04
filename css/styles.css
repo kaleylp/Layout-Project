@@ -4,7 +4,7 @@ body {
 }
 
 .footer {
-  border-top: 1px solid #a0a0a0
+  border-top: 1px solid #a0a0a0;
 }
 
 .main-header {
@@ -88,8 +88,28 @@ nav a.selected, nav a:hover {
   padding-top: 20px;
 }
 
-.projects {
-  background-color: orange;
+.projects::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.skills {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.skills li {
+    list-style-type: none;
+    font-weight: bolder;
+}
+
+nav {
+    background-color: #c9c9c9;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 30px;
 }
 
 /* Media Queries */
@@ -109,7 +129,7 @@ nav a.selected, nav a:hover {
 
     .menu ul li {
       display:inline-block;
-      width: 30%;
+      width: 20%;
       padding: 10px;
       padding-left: 0;
       background-color: #fffef4;
@@ -178,16 +198,112 @@ nav a.selected, nav a:hover {
       width: 100%;
     }
 
-    .bottom-nav {
+    .footer-large li a {
       float: right;
+      padding-left: 5px;
     }
 
     .footer-large li {
       padding: 5px;
     }
 
+
     .footer {
       display: none;
     }
+
+}
+
+@media (min-width: 1024px) {
+
+  .menu {
+    width: 100%;
+  }
+
+  .main-nav {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .main-nav ul li {
+    width: 10%;
+  }
+
+  .main-nav h1 {
+    display: inline-block;
+    width: 50%;
+    float: left;
+  }
+
+  .profile {
+    display: inline-block;
+    padding-bottom: 0;
+  }
+
+  .profile p {
+    float: left;
+    width: 45%;
+    text-align: center;
+    padding-top: 7%;
+  }
+
+  .projects {
+    background-color: white;
+  }
+
+  .marketing {
+    display: inline;
+    width: 33%;
+  }
+
+  .search {
+    display: inline;
+    width: 33%;
+  }
+
+  .travel {
+    display: inline;
+    width: 33%;
+  }
+
+  .map {
+    display: inline;
+    width: 33%;
+  }
+
+  .photo-gallery {
+    display: inline;
+    width: 33%;
+  }
+
+  .calculator {
+    display: inline;
+    width: 33%;
+  }
+
+  .contact {
+    text-align: center;
+    width: 100%;
+  }
+
+  .footer-large {
+    display: inline-block;
+    border-top: solid 1px #a0a0a0;
+    width: 100%;
+  }
+
+  .footer-large li a {
+    float: right;
+    padding-left: 5px;
+  }
+
+  .footer-large li {
+    padding: 5px;
+  }
+
+  .footer {
+    display: none;
+  }
+
 
 }
