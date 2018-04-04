@@ -63,6 +63,17 @@ nav a.selected, nav a:hover {
   font-weight: bold;
 }
 
+.footer-large li {
+  list-style-type: none;
+  display: inline;
+}
+
+.footer-large li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
 .top-link {
   float: right;
   margin-right: 10%;
@@ -75,4 +86,108 @@ nav a.selected, nav a:hover {
 .profile-photo {
   padding-bottom: 20px;
   padding-top: 20px;
+}
+
+.projects {
+  background-color: orange;
+}
+
+/* Media Queries */
+
+@media (min-width: 320px) {
+    .footer-large {
+      display: none;
+    }
+}
+
+@media (min-width: 768px) {
+
+
+    .menu {
+      width: 100%;
+    }
+
+    .menu ul li {
+      display:inline-block;
+      width: 30%;
+      padding: 10px;
+      padding-left: 0;
+      background-color: #fffef4;
+    }
+
+    .profile {
+      display: inline-block;
+      padding-bottom: 0;
+    }
+
+    .profile p {
+      float: left;
+      width: 45%;
+      text-align: center;
+      padding-top: 7%;
+    }
+
+    .projects {
+      background-color: white;
+    }
+
+    .marketing {
+      display: inline;
+      float: left;
+      width: 50%;
+    }
+
+    .search {
+      display: inline;
+      float: right;
+      width: 50%;
+    }
+
+    .travel {
+      display: inline;
+      float: left;
+      width: 50%;
+    }
+
+    .map {
+      display: inline;
+      float: right;
+      width: 50%;
+    }
+
+    .photo-gallery {
+      display: inline;
+      float: left;
+      width: 50%;
+    }
+
+    .calculator {
+      display: inline;
+      float: right;
+      width: 50%;
+    }
+
+    .contact {
+      text-align: center;
+      width: 100%;
+    }
+
+    .footer-large {
+      display: inline-block;
+      border-top: solid 1px #a0a0a0;
+      width: 100%;
+    }
+
+    .bottom-nav {
+      float: right;
+    }
+
+    .footer-large li {
+      padding: 5px;
+    }
+
+    .footer {
+      display: none;
+    }
+
 }
