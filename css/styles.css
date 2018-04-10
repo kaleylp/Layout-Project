@@ -86,6 +86,7 @@ nav a.selected, nav a:hover {
 .profile-photo {
   padding-bottom: 20px;
   padding-top: 20px;
+  width: 100%;
 }
 
 .projects::after {
@@ -112,13 +113,13 @@ nav {
     padding-right: 30px;
 }
 
+.footer-large {
+  display: none;
+}
+
+
 /* Media Queries */
 
-@media (min-width: 320px) {
-    .footer-large {
-      display: none;
-    }
-}
 
 @media (min-width: 768px) {
 
@@ -138,6 +139,10 @@ nav {
     .profile {
       display: inline-block;
       padding-bottom: 0;
+    }
+
+    .profile-photo {
+      width: 25%;
     }
 
     .profile p {
@@ -200,11 +205,11 @@ nav {
 
     .footer-large li a {
       float: right;
-      padding-left: 5px;
+      padding-left: 50px;
     }
 
     .footer-large li {
-      padding: 5px;
+      padding: 10px;
     }
 
 
@@ -218,6 +223,10 @@ nav {
 
   .menu {
     width: 100%;
+  }
+
+  .profile-photo {
+    width: 25%;
   }
 
   .main-nav {
@@ -294,7 +303,7 @@ nav {
 
   .footer-large li a {
     float: right;
-    padding-left: 5px;
+    padding-left: 50px;
   }
 
   .footer-large li {
